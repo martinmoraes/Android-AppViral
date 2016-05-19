@@ -1,6 +1,7 @@
 package br.com.appviral.appviral;
 
 import android.app.TabActivity;
+import android.content.Intent;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -17,7 +18,8 @@ public class PrincipalActivity extends TabActivity {
         TabHost tabHost = (TabHost) findViewById(android.R.id.tabhost);
 
         TabHost.TabSpec aba1 = tabHost.newTabSpec("TAB1");
-        aba1.setContent(R.id.id_aba1);
+        Intent intent = new Intent(this, ListaRecebidosActivity.class);
+        aba1.setContent(intent);
         aba1.setIndicator("",getResources().getDrawable(R.mipmap.ic_aba1));
         tabHost.addTab(aba1);
 
