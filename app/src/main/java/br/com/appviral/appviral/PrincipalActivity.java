@@ -18,17 +18,17 @@ public class PrincipalActivity extends TabActivity {
 
         TabHost.TabSpec aba1 = tabHost.newTabSpec("TAB1");
         aba1.setContent(R.id.id_aba1);
-        aba1.setIndicator("ABA UM");
+        aba1.setIndicator("",getResources().getDrawable(R.mipmap.ic_aba1));
         tabHost.addTab(aba1);
 
         TabHost.TabSpec aba2 = tabHost.newTabSpec("TAB2");
         aba2.setContent(R.id.id_aba2);
-        aba2.setIndicator("ABA DOSI");
+        aba2.setIndicator("",getResources().getDrawable(R.mipmap.ic_aba2));
         tabHost.addTab(aba2);
 
         TabHost.TabSpec aba3 = tabHost.newTabSpec("TAB3");
         aba3.setContent(R.id.id_aba3);
-        aba3.setIndicator("ABA TRÊS");
+        aba3.setIndicator("",getResources().getDrawable(R.mipmap.ic_aba3));
         tabHost.addTab(aba3);
     }
 }
