@@ -27,6 +27,7 @@ public class AdaptadorListView extends BaseAdapter {
         this.context = context;
         listaDeDados = new ArrayList<>();
         layoutInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        povoaLocal();
     }
 
 
@@ -67,6 +68,29 @@ public class AdaptadorListView extends BaseAdapter {
 
 
 
+    public void povoaLocal(){
+        listaDeDados.add(new DadosDoPost("10","Uma casa amarela", "ic_casa_amarela"));
+        listaDeDados.add(new DadosDoPost("20","Uma casa rocha", "ic_casa_rocha"));
+        listaDeDados.add(new DadosDoPost("30","Uma casa verde", "ic_casa_verde"));
+        listaDeDados.add(new DadosDoPost("40","Uma homem azul", "ic_homem_azul"));
+        listaDeDados.add(new DadosDoPost("50","Uma homem amarelo", "ic_homem_amarelo"));
+        listaDeDados.add(new DadosDoPost("60","Uma homem verde", "ic_homem_verde"));
+        listaDeDados.add(new DadosDoPost("70","Relógio", "ic_relogio_verde"));
+        listaDeDados.add(new DadosDoPost("10","Uma casa amarela", "ic_casa_amarela"));
+        listaDeDados.add(new DadosDoPost("20","Uma casa rocha", "ic_casa_rocha"));
+        listaDeDados.add(new DadosDoPost("30","Uma casa verde", "ic_casa_verde"));
+        listaDeDados.add(new DadosDoPost("40","Uma homem azul", "ic_homem_azul"));
+        listaDeDados.add(new DadosDoPost("50","Uma homem amarelo", "ic_homem_amarelo"));
+        listaDeDados.add(new DadosDoPost("60","Uma homem verde", "ic_homem_verde"));
+        listaDeDados.add(new DadosDoPost("70","Relógio", "ic_relogio_verde"));
+        listaDeDados.add(new DadosDoPost("10","Uma casa amarela", "ic_casa_amarela"));
+        listaDeDados.add(new DadosDoPost("20","Uma casa rocha", "ic_casa_rocha"));
+        listaDeDados.add(new DadosDoPost("30","Uma casa verde", "ic_casa_verde"));
+        listaDeDados.add(new DadosDoPost("40","Uma homem azul", "ic_homem_azul"));
+        listaDeDados.add(new DadosDoPost("50","Uma homem amarelo", "ic_homem_amarelo"));
+        listaDeDados.add(new DadosDoPost("60","Uma homem verde", "ic_homem_verde"));
+        listaDeDados.add(new DadosDoPost("70","Relógio", "ic_relogio_verde"));
+    }
 
 
 
